@@ -1,0 +1,23 @@
+{
+    "name": "veldman/laravel-notifications",
+    "description": "Notifications for Laravel",
+    "authors": [
+        {
+            "name": "Corné Veldman",
+            "email": "cveldman@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Veldman\\Notifications\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Veldman\\Notifications\\NotificationsServiceProvider"
+            ]
+        }
+    }
+}
